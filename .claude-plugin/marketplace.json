@@ -1,22 +1,22 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "test-architect",
-  "description": "Test-driven development and test-quality skill for Claude Code",
   "owner": {
     "name": "Mehmet Turac",
     "email": "mehmet.turac@havas.com"
+  },
+  "metadata": {
+    "description": "Test-driven development and test-quality skill for Claude Code",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "test-architect",
       "description": "Writes tests that match your project's existing conventions, enforces test-driven development, finds untested critical paths, and detects test smells. Language-agnostic.",
+      "version": "1.0.0",
       "author": { "name": "Mehmet Turac" },
       "category": "testing",
-      "source": {
-        "source": "git",
-        "url": "https://github.com/mturac/test-architect.git"
-      },
-      "homepage": "https://github.com/mturac/test-architect"
+      "homepage": "https://github.com/mturac/test-architect",
+      "source": "./"
     }
   ]
 }
