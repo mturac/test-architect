@@ -10,6 +10,10 @@ Most AI-generated tests fail in one of three ways: they use the **wrong framewor
 
 Test Architect fixes all three by reading your project's existing tests first and matching them exactly — then enforcing the discipline that makes a test suite actually catch bugs.
 
+![Test Architect demo on frappe/hrms](docs/demo.png)
+
+> A real run on [frappe/hrms](https://github.com/frappe/hrms): it learned the Frappe `IntegrationTestCase` conventions from the 115 existing Python tests, then flagged that the entire Vue frontend has **zero tests** — including the auth session flow and `formatCurrency()`.
+
 ---
 
 ## ✨ Commands
