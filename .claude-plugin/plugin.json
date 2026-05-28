@@ -1,0 +1,14 @@
+{
+  "name": "test-architect",
+  "description": "Writes tests that match your project's existing conventions, enforces test-driven development, finds untested critical paths, and detects test smells. Language-agnostic — vitest, jest, pytest, go test, rspec, junit, and more.",
+  "author": {
+    "name": "Mehmet Turac",
+    "email": "mehmet.turac@havas.com",
+    "url": "https://github.com/mturac"
+  },
+  "homepage": "https://github.com/mturac/test-architect",
+  "license": "MIT",
+  "version": "1.0.0",
+  "category": "testing",
+  "tags": ["testing", "tdd", "test-coverage", "code-quality", "vitest", "jest", "pytest"]
+}
